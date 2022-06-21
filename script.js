@@ -1,27 +1,16 @@
-console.log("Hello World");
+let numberChildren = 3;
+let partnerName = "Maurice";
+let geoLocation = "Tijuana";
+let jobTitle = "Software Developer" 
 
-//Declaration of variables
-var userName;
+//document.write(`You will be a ${jobTitle} in ${geoLocation}, and married to ${partnerName} with ${numberChildren} kids.`);
 
-//Assign a value to the variable
-userName="Cory";
-userName="Nana";
-userName=99;
-let userAge=16;
-console.log(userName);
+let names = "Sebastian";
+let email = "l21211981@tectijuana.edu.mx";
+let password = "Whatever";
+let age = 18;
+let country ="USA";
+let salaryM = 1800;
 
-let userEmail="slopezWells@gmail.com"; //Declaration and assign at the same time
 
-const url="www.whatever.com";
-
-console.log(userEmail);
-
-document.write("Sad way to display things");
-document.write("<p>User Name:" + userName + "  </p><p>User Email: <p>" + userEmail+" </p> <p><User Age: "+userAge+ " </p>Web Page: "+url+" </p>");
-
-document.write("Better way to display things");
-document.write(` <p>Name: ${userName}</p>
-                 <p>Email: ${userEmail}</p>
-                 <p>Age: ${userAge}</p>
-                 <p>Web: ${url}</p>
-                 `)
+document.write(`<p>Name: ${names}</p> <p> Email: ${email}</p> <p>Salary: $${salaryM*12}</p>`);
